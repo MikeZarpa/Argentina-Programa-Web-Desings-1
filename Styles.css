@@ -1,0 +1,48 @@
+.circular{
+
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border: 2px solid red;
+    border-radius: 50% 50% 50% 50%;
+}
+.my-deck-card{
+    display: flex ;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 1000px;
+}
+.chiquito-img{
+    width: 100px;
+    height: 10rem;
+}
+.personalizado{
+    text-align: center;
+}
+.centrar{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.img-top-card{
+    box-sizing: border-box;
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.centrar-imagen{
+    display:flex;
+    justify-content:center;
+    text-align: center; 
+}
+.ahora-si-centrar{
+    display: flex;
+    width: 300px;
+    text-align: center;
+    justify-items: center;
+}

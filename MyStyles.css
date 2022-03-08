@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+}
+.mk-deck{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.mk-deck img{
+    height: 150px;
+}
+.mk-deck  h2, .mk-deck p{
+text-align: center;
+}
+.mk-card{
+    position: relative;
+    max-width: 25%;
+    box-shadow: 0 0 3px 1px black;
+    padding: 10px 10px;
+}
+.mk-marco{
+    width: 150px;
+    height: 150px;    
+    border-radius: 50%;
+    border: 1px solid red;
+    margin: 0 auto;
+    overflow: hidden;
+    
+}
+.mk-container-bottom{
+    position: absolute;
+    /* Ahora necesito centar respecto de la carta */
+    width: 100%; /*Tomo todo el tamaño horizontal de la tarjeta*/
+    left: 0; /*Coincido bordes*/
+    bottom: 5px; /*Quiero que esté siempre 5px ensima del fondo*/
+}
+.contenedor{
+    height: 30px;
+}
+.mk-btn{
+    background-color: rgb(72, 74, 228);
+    display: block;
+    width:max-content;
+    margin: 0 auto;
+    color: white;
+    text-decoration: none;
+    padding: 5px 15px;
+    box-shadow: 0 0 1px black;
+    border-radius: 5px;
+}
